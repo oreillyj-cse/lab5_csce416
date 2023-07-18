@@ -1,0 +1,7 @@
+file_name=02_BadDay.txt
+length=10
+drop=0.33
+delay=0.33
+duplicate=0.33
+min=5
+max=20

@@ -1,0 +1,7 @@
+file_name=01_MehDay.txt
+length=100
+drop=0.02
+delay=0.03
+duplicate=0.001
+min=15
+max=20

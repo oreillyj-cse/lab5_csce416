@@ -1,0 +1,32 @@
+file_name=00_just10.txt
+length=10
+RTT = 0
+Server Received: ;
+Server Replied: 0,M_0;1,M_1;2,M_2
+Client Received: 0,M_0;1,M_1;2,M_2
+Client Responded: 3,ACK
+RTT = 1
+Server Received: 3,ACK
+Server Replied: 3,M_3;4,M_4;5,M_5;6,M_6
+Client Received: 3,M_3;4,M_4;5,M_5;6,M_6
+Client Responded: 7,ACK
+RTT = 2
+Server Received: 7,ACK
+Server Replied: 7,M_7;8,M_8;9,M_9
+Client Received: 7,M_7;8,M_8;9,M_9
+Client Responded: 10,ACK
+RTT = 3
+Server Received: 10,ACK
+Server Replied: ;
+Client Received: ;
+Client Responded: ;
+Client Metrics
+Metric Report
+Received:10
+Sent:3
+RTTs:3
+Server Metrics
+Metric Report
+Received:3
+Sent:10
+RTTs:3
